@@ -64,6 +64,7 @@ a:hover {
 }
 .third {
     width: 10pc;
+    margin-bottom: 15px;
 }
 .row {
     column-gap: 47px;
@@ -106,6 +107,9 @@ background-repeat: round;
 .sub-main {
     height: 100px;
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 ::placeholder {
@@ -114,6 +118,8 @@ background-repeat: round;
 
 .sub-main2 {
     height: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -229,16 +235,12 @@ background-repeat: round;
                     } 
                 }
 
-
-
-
                 @media screen and  (max-width: 1000px) {
                     .heading2 {
                         width: 90% !important;
                         height: 320px !important;
                     }
                     } 
-
 
 
       
