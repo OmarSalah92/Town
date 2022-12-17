@@ -80,6 +80,7 @@ a:hover {
 
 .lorem {
     text-align: center;
+    width: 100% !important;
 }
 
 .main4 {
@@ -227,6 +228,16 @@ background-repeat: round;
                         height:  116px !important;
                     } 
                 }
+
+
+
+
+                @media screen and  (max-width: 1000px) {
+                    .heading2 {
+                        width: 90% !important;
+                        height: 320px !important;
+                    }
+                    } 
 
 
 
